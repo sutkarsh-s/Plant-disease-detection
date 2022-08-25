@@ -1,0 +1,8 @@
+For Running tf serving -- docker run -t --rm -p 8503:8503 -v C:\Users\singh\Data_Science\Projects\potato-disease-classification-main:/potato-disease-classification-main tensorflow/serving --rest_api_port=8503 --model_config_file=/potato-disease-classification-main/models.config  
+
+For Running front-end - npm start
+
+For running back-end -  
+1. conda activate tensorflow
+2. cd api
+3. uvicorn main:app --reload --host 0.0.0.0

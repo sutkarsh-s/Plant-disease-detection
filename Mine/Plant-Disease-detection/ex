@@ -1,0 +1,1 @@
+docker run -t --rm -p 8502:8502 -v C:\Users\singh\Data_Science\Projects\Dl\Plant-Disease-detection:/Plant-Disease-detection tensorflow/serving --rest_api_port=8502 --model_config_file=/Plant-Disease-detection/models.config 
